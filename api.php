@@ -7,7 +7,7 @@ require("data.php");
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     //查询指定id的记录
-    $sql = "SELECT * FROM soul WHERE id = $id";
+    $sql = "SELECT * FROM soul WHERE id = $id+0";
 } else {
     //查询随机一条记录
     $sql = "SELECT * FROM soul ORDER BY RAND() LIMIT 1";
