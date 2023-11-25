@@ -29,7 +29,7 @@ require("track.php");
 				</div>
 				<div class="col">
 					<div class="float-right" style="padding-top: 0px;">
-						<a class="btn btn-primary btn-filled btn-xs" href="https://git.loliquq.cn/earthjasonlin/nows">开源</a>
+						<a class="btn btn-primary btn-filled btn-xs" href="https://git.loliquq.cn/earthjasonlin/nows">源代码</a>
 					</div>
 				</div>
 			</div>
@@ -64,7 +64,6 @@ require("track.php");
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<p class="lead text">截屏分享朋友</p>
 					<span class="btn btn-primary btn-filled btn-xs"><a class="btn btn-primary btn-filled btn-xs" href="/">再来一句</a></span>
 				</div>
 			</div>
