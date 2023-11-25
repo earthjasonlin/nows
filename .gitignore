@@ -1,3 +1,4 @@
 .vscode/
 *.htaccess
 track.php
+data.php
