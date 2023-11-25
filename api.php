@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 //设置json格式头部
 header('Content-type: application/json');
 //载入数据库文件
