@@ -25,12 +25,15 @@ require("track.php");
 	<div class="top-wrap" style="position: absolute; top: 1vh;width: 100%;z-index: 999">
 		<div class="container">
 			<div class="row" style="margin-top: 30px;">
-				<div class="col">
+				<div class="col" style="display: flex; align-items: center;">
 					<img src="./img/logo.png">
 				</div>
-				<div class="col">
-					<div class="float-right" style="padding-top: 0px;">
+				<div class="col" style="display: flex; align-items: center; justify-content: flex-end;">
+					<div class="float-right" style="margin: 10px;">
 						<a class="btn btn-primary btn-filled btn-xs" href="https://git.loliquq.cn/earthjasonlin/nows/issues/new?template=.github%2fISSUE_TEMPLATE%2fnew.yml">提交句子</a>
+					</div>
+					<div class="float-right" style="margin: 10px;">
+						<a class="btn btn-primary btn-filled btn-xs" href="https://git.loliquq.cn/earthjasonlin/nows/wiki">API文档</a>
 					</div>
 				</div>
 			</div>
