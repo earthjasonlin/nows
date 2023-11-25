@@ -51,7 +51,7 @@ require("track.php");
 				if ($row["author"] != NULL) {
 				?>
 					<div id="author" style="font-size: 1.5rem;">
-						-<?php echo $row["author"] ?>
+						—<?php echo $row["author"] ?>
 					</div>
 			<?php
 				}
