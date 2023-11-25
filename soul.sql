@@ -22,7 +22,8 @@ SET time_zone = "+08:00";
 CREATE TABLE `soul` (
   `id` int(11) NOT NULL,
   `title` varchar(300) NOT NULL,
-  `author` varchar(30)
+  `author` varchar(30),
+  `from` varchar(30)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 --
 -- 转储表的索引

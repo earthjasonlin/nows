@@ -13,6 +13,13 @@ body:
     id: author
     attributes:
       label: 作者
-      description: 这个句子是哪位角色说的
+      description: 这个句子是哪位角色说的，例如："桂乃芬"
+    validations:
+      required: true
+  - type: textarea
+    id: from
+    attributes:
+      label: 出处
+      description: 这个句子是哪个游戏哪个任务里的，例如："崩坏：星穹铁道《狐斋志异》双生"
     validations:
       required: true
