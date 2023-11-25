@@ -29,7 +29,7 @@ require("track.php");
 				</div>
 				<div class="col">
 					<div class="float-right" style="padding-top: 0px;">
-						<a class="btn btn-primary btn-filled btn-xs" href="https://git.loliquq.cn/earthjasonlin/nows">源代码</a>
+						<a class="btn btn-primary btn-filled btn-xs" href="https://git.loliquq.cn/earthjasonlin/nows/issues/new?template=.github%2fISSUE_TEMPLATE%2fnew.yml">提交句子</a>
 					</div>
 				</div>
 			</div>
