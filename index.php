@@ -12,11 +12,10 @@ require("track.php");
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<title></title>
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="" />
-	<link rel="icon" href="/favicon.ico" type="image/x-icon" id="page_favionc">
+	<title>mi鸡汤</title>
+	<meta name="description" content="mihomo游戏鸡汤">
+	<meta name="keywords" content="米哈游, mihoyo, 原神, 崩铁, 崩坏：星穹铁道, 鸡汤">
+	<link rel="icon" href="/favicon.ico" id="page_favionc">
 	<link href="./css/min.css" rel="stylesheet">
 
 </head>
@@ -26,7 +25,7 @@ require("track.php");
 		<div class="container">
 			<div class="row" style="margin-top: 30px;">
 				<div class="col" style="display: flex; align-items: center;">
-					<img src="./img/logo.png">
+					<a href="/"><img src="./img/logo.png"></a>
 				</div>
 				<div class="col" style="display: flex; align-items: center; justify-content: flex-end;">
 					<div class="float-right" style="margin: 10px;">
