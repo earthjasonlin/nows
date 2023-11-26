@@ -46,7 +46,9 @@ require("track.php");
 			//查询随机一条记录
 			$sql = "SELECT * FROM soul ORDER BY RAND() LIMIT 1";
 			$result = mysqli_query($conn, $sql);
+			$id;
 			while ($row = mysqli_fetch_assoc($result)) {
+				$id = $row["id"];
 			?>
 				<div id="sentence" style="font-size: 2rem;">
 					<?php echo $row["title"] ?>
@@ -76,6 +78,11 @@ require("track.php");
 			<div class="row">
 				<div class="col text-center">
 					<span class="btn btn-primary btn-filled btn-xs"><a class="btn btn-primary btn-filled btn-xs" href="/">再来一句</a></span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col text-center">
+					<span style="color:#fff;"><?php echo "id.", $id, " ver.", substr(shell_exec('git rev-parse HEAD'), 0, 10); ?></span>
 				</div>
 			</div>
 		</div>
