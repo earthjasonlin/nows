@@ -29,10 +29,10 @@ require("track.php");
 				</div>
 				<div class="col" style="display: flex; align-items: center; justify-content: flex-end;">
 					<div class="float-right" style="margin: 10px;">
-						<a class="btn btn-primary btn-filled btn-xs" href="https://git.loliquq.cn/earthjasonlin/nows/issues/new?template=.github%2fISSUE_TEMPLATE%2fnew.yml">提交句子</a>
+						<a class="btn btn-primary btn-filled btn-xs" href="https://git.loliquq.cn/earthjasonlin/nows/issues/new/choose" target="_blank">意见反馈</a>
 					</div>
 					<div class="float-right" style="margin: 10px;">
-						<a class="btn btn-primary btn-filled btn-xs" href="https://git.loliquq.cn/earthjasonlin/nows/wiki">API文档</a>
+						<a class="btn btn-primary btn-filled btn-xs" href="https://git.loliquq.cn/earthjasonlin/nows/wiki" target="_blank">API文档</a>
 					</div>
 				</div>
 			</div>
@@ -76,6 +76,7 @@ require("track.php");
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
+				<p class="lead text">请点击「意见反馈」帮助我们做得更好！</p>
 					<span class="btn btn-primary btn-filled btn-xs"><a class="btn btn-primary btn-filled btn-xs" href="/">再来一句</a></span>
 				</div>
 			</div>
